@@ -1,4 +1,4 @@
-module dw1.io/slackcat
+module github.com/dwisiswant0/slackcat
 
 go 1.13
 
