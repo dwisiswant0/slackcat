@@ -46,7 +46,7 @@ Slackcat also strips the ANSI colors from stdin to send messages, so you'll rece
 
 ### Line-by-line
 
-Use the `-1` flag if you want to send messages on a line by line _(instead of have to wait for previously executed program to finish, default: false)_.
+Instead of have to wait for previously executed program to finish, use the `-1` flag if you want to send messages on a line by line _(default: false)_.
 
 ```bash
 ▶ amass track -d domain.tld | slackcat -1
