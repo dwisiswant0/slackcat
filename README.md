@@ -2,8 +2,6 @@
 
 A simple way of sending messages from the CLI output to your Slack with webhook.
 
-The goal is to get automated alerts for interesting stuff!
-
 ## Installation
 
 - Download a prebuilt binary from [releases page](https://github.com/dwisiswant0/slackcat/releases/latest), unpack and run! or
@@ -20,17 +18,25 @@ export SLACK_WEBHOOK_URL="https://hooks.slack.com/services/xxx/xxx/xxx"
 
 ## Usage
 
+It's very simple!
+
+```bash
+▶ echo -e "Hello,\nworld!" | slackcat
+```
+
 ### Flags
 
 ```
 Usage of slackcat:
   -1    Send message line-by-line
   -u string
-        Slack Webook URL
+        Slack Webhook URL
   -v    Verbose mode
 ```
 
-### Basic Usage
+### Workaround
+
+The goal is to get automated alerts for interesting stuff!
 
 ```bash
 ▶ assetfinder dw1.io | anew | slackcat -u https://hooks.slack.com/services/xxx/xxx/xxx

@@ -18,7 +18,7 @@ var wg sync.WaitGroup
 func main() {
 	var oneLine, verboseMode bool
 	var webhookURL, lines string
-	flag.StringVar(&webhookURL, "u", "", "Slack Webook URL")
+	flag.StringVar(&webhookURL, "u", "", "Slack Webhook URL")
 	flag.BoolVar(&oneLine, "1", false, "Send message line-by-line")
 	flag.BoolVar(&verboseMode, "v", false, "Verbose mode")
 	flag.Parse()
