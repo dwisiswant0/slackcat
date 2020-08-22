@@ -7,9 +7,7 @@ The goal is to get automated alerts for interesting stuff!
 ## Installation
 
 - Download a prebuilt binary from [releases page](https://github.com/dwisiswant0/slackcat/releases/latest), unpack and run! or
-- If you have go compiler installed: `go get github.com/dwisiswant0/slackcat`
-
-The only dependency of slackcat is Go 1.13.
+- If you have go1.13+ compiler installed: `go get github.com/dwisiswant0/slackcat`
 
 ## Configuration
 
