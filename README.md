@@ -49,7 +49,7 @@ Slackcat also strips the ANSI colors from stdin to send messages, so you'll rece
 Use the `-1` flag if you want to send messages on a line by line _(default: false)_.
 
 ```bash
-▶ assetfinder dw1.io | anew | slackcat -1
+▶ amass track -d domain.tld | slackcat -1
 ```
 
 ## Thanks
