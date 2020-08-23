@@ -47,7 +47,7 @@ The `-u` flag is optional if you've defined `SLACK_WEBHOOK_URL` environment vari
 Slackcat also strips the ANSI colors from stdin to send messages, so you'll receive a clean message on your Slack!
 
 ```bash
-▶ nuclei -l urls.txt -t cves/ | slackcat -1
+▶ nuclei -l urls.txt -t cves/ | slackcat
 ```
 
 ![Proof](https://user-images.githubusercontent.com/25837540/90967983-4d29a100-e511-11ea-9138-28b6901856dc.png)
