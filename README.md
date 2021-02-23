@@ -2,6 +2,8 @@
 
 A simple way of sending messages from the CLI output to your Slack with webhook.
 
+> See [discat](https://github.com/dwisiswant0/discat) for Discord version.
+
 ## Installation
 
 - Download a prebuilt binary from [releases page](https://github.com/dwisiswant0/slackcat/releases/latest), unpack and run! or
